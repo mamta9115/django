@@ -1,0 +1,26 @@
+{% extends 'myapp/base.html' %}
+{% load static %}
+{% block content %}
+   <div class="container">
+      <marquee><h1 class="text-center text-danger" mb-3>Director Message</h1></marquee>
+       <div class="row">
+           <div class="col-md-6">
+
+    <img src="{% static 'myapp/images/img108.jpg' %}" class="img-fluid">
+           </div>
+           <div class="col-md-6">
+             <p class="text-success">
+                 Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured
+             </p>
+
+           </div>
+
+
+
+
+       </div>
+
+
+
+   </div>
+    {% endblock %}
